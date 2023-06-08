@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="text-center container ">
+    <!-- <div class="text-center container ">
             <h1 class="text-uppercase">Break points</h1>
             <div>
                 <button class="btn btn-primary col-12">Button properties</button>
@@ -23,8 +23,8 @@
         <button class="btn btn-outline-success col-lg-3 col-md-8 col-sm-12">Button properties</button>
         <button class="btn btn-outline-success col-3">not using Break</button>
     </div>
-    <!-- justify-contents(start,end,center,between,around,evenly) -->
-    <div class="mt-5 row justify-content-center gx-5">
+     justify-contents(start,end,center,between,around,evenly) -->
+    <!-- <div class="mt-5 row justify-content-center gx-5">
         <button class="btn btn-outline-success col-3 ">Justify</button>
         <button class="btn btn-outline-success col-3">content</button>
     </div>
@@ -47,10 +47,100 @@
     <div class="mt-5 row justify-content-evenly">
         <button class="btn btn-outline-success col-3">Justify</button>
         <button class="btn btn-outline-success col-3">content</button>
-    </div>
+    </div> -->
 
     <!-- d-flex,d-lnline-flex-->
     <p class="d-flex bg-dark text-light col-1">Working display flex</p>
-    <p class="d-inline-flex bg-dark text-light">Working display flex</p>
+    <p class="d-inline-flex bg-dark text-light">Working display flex</p> 
+    <!-- Align-item/self -->
+    <div class="row bg-success text-light align-items-center" style="height: 200px;">
+        <p class="col bg-info">ClassA</p>
+        <p class="col bg-primary">ClassB</p>
+        <p class="col bg-danger ">ClassC</p>
+    </div>
+
+    <div class="row bg-dark text-light  " style="height: 200px;">
+        <p class="col bg-info align-self-center">ClassA</p>
+        <p class="col bg-primary align-self-end">ClassB</p>
+        <p class="col bg-danger align-self-baseline">ClassC</p>
+    </div>
+
+    <p class="alert alert-danger">Latest version 5.6.78-Eclipse</p>
+
+
+    <button class="btn btn-outline-success">
+        Notification<span class="badge bg-danger ms-2">4</span>
+    </button>
+
+    <div class=" row bg-light text-light">
+        <div class="col bg-info ">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col bg-primary order-1">
+            <p>Welcome to bootstrap 5 version</p>
+        </div>
+        <div class="col bg-danger order-2">
+            <p>Html ,css is most important in front end developer role</p>
+        </div>
+    </div>
+        <div class="row container">
+            <li class="order-2">html</li>
+            <li class="order-3">CSs</li>
+            <li class="order-1">Bootstrap</li>
+            <li class="order-4">Java Script</li>
+        </div>
+
+        <!-- typography -->
+        <p class="h6">Welcome to Typography</p>
+
+        <!-- Table Properties -->
+        <table class="table table-danger  table-hover">
+            <thead>
+                <tr>
+                    <th>no</th>
+                    <th>Student Name</th>
+                    <th>Company Name</th>
+                    <th>Native Place</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td class="table-active">
+                        Manojkumar
+                    </td>
+                    <td>
+                        Zealous Tech Corp
+                    </td>
+                    <td>Namakkal</td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        Manikandan
+                    </td>
+                    <td class="table-active">
+                        ASM Mobile Shop
+                    </td>
+                    <td>Tiruchengode</td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        Gowtham
+                    </td>
+                    <td>
+                        RA Gowtham Pvt LTD
+                    </td>
+                    <td class="table-active">Rasipuram</td>
+                </tr>
+            </tbody>
+        </table>
 </body>
 </html>
